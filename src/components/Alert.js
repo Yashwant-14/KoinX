@@ -1,7 +1,7 @@
 import React from "react";
 import { CryptoState } from "../config/CryptoContext";
 import { Snackbar } from "@mui/material";
-import MuiAlert from "@material-ui/lab/Alert";
+import MuiAlert from "@mui/lab/Alert";
 
 const Alert = () => {
   const { alert, setAlert } = CryptoState();
